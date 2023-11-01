@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>TheBox</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<meta property="og:image" content="img/meta.jpg">
+	<meta property="og:title" content="TheBox">
+	<meta property="og:description" content="Building things is our mission.">
+	<style>
+		body {
+			opacity: 0;
+		}
+	</style>
+	<link rel="stylesheet" href="css/style.min.css?_v=20231101132105">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header" data-lp>
+			<div class="header__container">
+				<a href="#" class="header__logo" data-goto=".page">
+					<svg xmlns="http://www.w3.org/2000/svg" width="38" height="48" viewBox="0 0 38 48" fill="none">
+						<path d="M19.0017 36.6673V47.5003L38 36.5269V25.6952L19.0017 36.6673Z" class="header__path-primary" fill="#565555" />
+						<path d="M27.5062 15.745L36.8802 10.3284L19.0017 0V10.8328L27.5062 15.745Z" class="header__path-secondary" fill="#000" />
+						<path d="M11.6182 18.9795V29.8158L19.0015 34.0795V23.2481L11.6182 18.9795Z" class="header__path-light" fill="#8b8989" />
+						<path d="M38 12.2701L19.0017 23.2481V34.0795L38 23.1061V12.2701Z" class="header__path-primary" fill="#565555" />
+						<path d="M1.13135 10.3221L10.4492 15.7703L19.0014 10.8328V0L1.13135 10.3221Z" class="header__path-primary" fill="#565555" />
+						<path d="M9.3772 31.1103V17.68L0 12.2652V36.5266L19.0014 47.5V36.6669L9.3772 31.1103Z" class="header__path-light" fill="#8b8989" />
+					</svg>
+					<div class="header__logo-text">
+						<span>The</span>Box
+					</div>
+				</a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#" class="menu__link" data-goto=".page__hero">Home</a></li>
+							<li class="menu__item"><a href="#" class="menu__link" data-goto-header data-goto=".about-us">About Us</a></li>
+							<li class="menu__item"><a href="#" class="menu__link" data-goto-header data-goto=".services">Services</a></li>
+							<li class="menu__item"><a href="#" class="menu__link" data-goto-header data-goto=".projects">Projects</a></li>
+							<li class="menu__item"><a href="#" class="menu__link" data-goto-header data-goto=".footer">Contact Us</a></li>
+						</ul>
+					</nav>
+				</div>
+				<button type="button" class="header__menu-icon icon-menu"><span></span></button>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__hero hero" data-watch="navigator" data-watch-threshold="0.4">
+				<!-- Оболонка слайдера -->
+				<div class="hero__slider swiper">
+					<!-- Частина слайдера, що рухається -->
+					<div class="hero__wrapper swiper-wrapper">
+						<!-- Слайд -->
+						<div class="hero__slide swiper-slide">
+							<div class="hero__image-ibg">
+								<picture><source srcset="img/01_intro/01.webp" type="image/webp"><img src="img/01_intro/01.jpg" alt="Architecture"></picture>
+							</div>
+							<div class="hero__container _slide-01">
+								<h2 class="hero__title">Building things is our mission.</h2>
+								<a href="#" data-goto-header data-goto=".reputation" class="hero__scroll-animation">
+									<div class="hero__mouse">
+										<div class="hero__wheel"></div>
+									</div>
+									<div class="hero__arrows">
+										<span class="hero__arrow-first"></span>
+										<span class="hero__arrow-second"></span>
+										<span class="hero__arrow-third"></span>
+									</div>
+								</a>
+							</div>
+							<div class="hero__project-info" data-da="._slide-01,992,1">
+								<h4 class="hero__project-title"><a href="#">Feature Projects</a></h4>
+								<div class="hero__project-name"><a href="#">The National University of Architecture</a></div>
+							</div>
+						</div>
+						<div class="hero__slide swiper-slide">
+							<div class="hero__image-ibg">
+								<picture><source srcset="img/01_intro/02.webp" type="image/webp"><img src="img/01_intro/02.jpg" alt="Architecture"></picture>
+							</div>
+							<div class="hero__container _slide-02">
+								<h2 class="hero__title">We are building the future.</h2>
+								<a href="#" data-goto-header data-goto=".reputation" class="hero__scroll-animation">
+									<div class="hero__mouse">
+										<div class="hero__wheel"></div>
+									</div>
+									<div class="hero__arrows">
+										<span class="hero__arrow-first"></span>
+										<span class="hero__arrow-second"></span>
+										<span class="hero__arrow-third"></span>
+									</div>
+								</a>
+							</div>
+							<div class="hero__project-info" data-da="._slide-02,992,1">
+								<h4 class="hero__project-title"><a href="#">Feature Projects</a></h4>
+								<div class="hero__project-name"><a href="#">Business and Information Technology Building</a></div>
+							</div>
+						</div>
+						<div class="hero__slide swiper-slide">
+							<div class="hero__image-ibg">
+								<picture><source srcset="img/01_intro/03.webp" type="image/webp"><img src="img/01_intro/03.jpg" alt="Architecture"></picture>
+							</div>
+							<div class="hero__container _slide-03">
+								<h2 class="hero__title">Our team is ready to implement any of your ideas.</h2>
+								<a href="#" data-goto-header data-goto=".reputation" class="hero__scroll-animation">
+									<div class="hero__mouse">
+										<div class="hero__wheel"></div>
+									</div>
+									<div class="hero__arrows">
+										<span class="hero__arrow-first"></span>
+										<span class="hero__arrow-second"></span>
+										<span class="hero__arrow-third"></span>
+									</div>
+								</a>
+							</div>
+							<div class="hero__project-info" data-da="._slide-03,992,1">
+								<h4 class="hero__project-title"><a href="#">Feature Projects</a></h4>
+								<div class="hero__project-name"><a href="#">Mega-Smart City</a></div>
+							</div>
+						</div>
+						<div class="hero__slide swiper-slide">
+							<div class="hero__image-ibg">
+								<picture><source srcset="img/01_intro/04.webp" type="image/webp"><img src="img/01_intro/04.jpg" alt="Architecture"></picture>
+							</div>
+							<div class="hero__container _slide-04">
+								<h2 class="hero__title">We value old traditions while building using new technologies.</h2>
+								<a href="#" data-goto-header data-goto=".reputation" class="hero__scroll-animation">
+									<div class="hero__mouse">
+										<div class="hero__wheel"></div>
+									</div>
+									<div class="hero__arrows">
+										<span class="hero__arrow-first"></span>
+										<span class="hero__arrow-second"></span>
+										<span class="hero__arrow-third"></span>
+									</div>
+								</a>
+							</div>
+							<div class="hero__project-info" data-da="._slide-04,992,1">
+								<h4 class="hero__project-title"><a href="#">Feature Projects</a></h4>
+								<div class="hero__project-name"><a href="#">National Library</a></div>
+							</div>
+						</div>
+					</div>
+					<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
+					<div class="swiper__control">
+						<button type="button" class="swiper-button-prev">Back</button>
+						<button type="button" class="swiper-button-next">Next</button>
+					</div>
+				</div>
+			</section>
+			<section class="page__reputation reputation" data-watch data-watch-threshold="0.7" data-watch-once>
+				<div class="reputation__container">
+					<div class="reputation__body">
+						<h2 class="reputation__title">Our Reputation</h2>
+						<div class="reputation__items">
+							<article class="reputation__item">
+								<div class="reputation__content-wrapper">
+									<div class="reputation__item-icon">
+										<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<g id="icon">
+												<path id="Vector" d="M35 13.3333C35.884 13.3333 36.7319 13.6845 37.357 14.3096C37.9821 14.9348 38.3333 15.7826 38.3333 16.6667V23.3333C38.3333 24.2174 37.9821 25.0652 37.357 25.6904C36.7319 26.3155 35.884 26.6667 35 26.6667H33.23C32.8236 29.8888 31.2554 32.852 28.8195 35C26.3837 37.148 23.2476 38.3333 20 38.3333V35C22.6521 35 25.1957 33.9464 27.071 32.0711C28.9464 30.1957 30 27.6522 30 25V15C30 12.3478 28.9464 9.80429 27.071 7.92893C25.1957 6.05357 22.6521 5 20 5C17.3478 5 14.8043 6.05357 12.9289 7.92893C11.0535 9.80429 9.99996 12.3478 9.99996 15V26.6667H4.99996C4.1159 26.6667 3.26806 26.3155 2.64294 25.6904C2.01782 25.0652 1.66663 24.2174 1.66663 23.3333V16.6667C1.66663 15.7826 2.01782 14.9348 2.64294 14.3096C3.26806 13.6845 4.1159 13.3333 4.99996 13.3333H6.76996C7.17668 10.1115 8.74509 7.14878 11.1809 5.00112C13.6167 2.85346 16.7525 1.66846 20 1.66846C23.2474 1.66846 26.3832 2.85346 28.819 5.00112C31.2548 7.14878 32.8232 10.1115 33.23 13.3333H35ZM12.9333 26.3083L14.7 23.4817C16.2884 24.4767 18.1256 25.003 20 25C21.8743 25.003 23.7115 24.4767 25.3 23.4817L27.0666 26.3083C24.9487 27.6352 22.4992 28.3372 20 28.3333C17.5007 28.3372 15.0512 27.6352 12.9333 26.3083Z" />
+											</g>
+										</svg>
+									</div>
+									<h4 class="reputation__item-title">Best Services</h4>
+								</div>
+								<div class="reputation__item-text">
+									<p>Nullam senectus porttitor in eget. Eget rutrum leo interdum.</p>
+								</div>
+							</article>
+							<article class="reputation__item">
+								<div class="reputation__content-wrapper">
+									<div class="reputation__item-icon">
+										<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<g id="icon">
+												<path id="Vector" d="M35 13.3333C35.884 13.3333 36.7319 13.6845 37.357 14.3096C37.9821 14.9348 38.3333 15.7826 38.3333 16.6667V23.3333C38.3333 24.2174 37.9821 25.0652 37.357 25.6904C36.7319 26.3155 35.884 26.6667 35 26.6667H33.23C32.8236 29.8888 31.2554 32.852 28.8195 35C26.3837 37.148 23.2476 38.3333 20 38.3333V35C22.6521 35 25.1957 33.9464 27.071 32.0711C28.9464 30.1957 30 27.6522 30 25V15C30 12.3478 28.9464 9.80429 27.071 7.92893C25.1957 6.05357 22.6521 5 20 5C17.3478 5 14.8043 6.05357 12.9289 7.92893C11.0535 9.80429 9.99996 12.3478 9.99996 15V26.6667H4.99996C4.1159 26.6667 3.26806 26.3155 2.64294 25.6904C2.01782 25.0652 1.66663 24.2174 1.66663 23.3333V16.6667C1.66663 15.7826 2.01782 14.9348 2.64294 14.3096C3.26806 13.6845 4.1159 13.3333 4.99996 13.3333H6.76996C7.17668 10.1115 8.74509 7.14878 11.1809 5.00112C13.6167 2.85346 16.7525 1.66846 20 1.66846C23.2474 1.66846 26.3832 2.85346 28.819 5.00112C31.2548 7.14878 32.8232 10.1115 33.23 13.3333H35ZM12.9333 26.3083L14.7 23.4817C16.2884 24.4767 18.1256 25.003 20 25C21.8743 25.003 23.7115 24.4767 25.3 23.4817L27.0666 26.3083C24.9487 27.6352 22.4992 28.3372 20 28.3333C17.5007 28.3372 15.0512 27.6352 12.9333 26.3083Z" />
+											</g>
+										</svg>
+									</div>
+									<h4 class="reputation__item-title">Best Teams</h4>
+								</div>
+								<div class="reputation__item-text">
+									<p>Cursus semper tellus volutpat aliquet lacus. </p>
+								</div>
+							</article>
+							<article class="reputation__item">
+								<div class="reputation__content-wrapper">
+									<div class="reputation__item-icon">
+										<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<g id="icon">
+												<path id="Vector" d="M36.3167 28.4333L27.0667 19.1833L29.6833 16.5667L23.4333 10.3167L20.8167 12.9333L11.5667 3.68332L3.68335 11.5667L12.9333 20.8167L5.00002 28.75V35H11.25L19.1833 27.0667L28.4333 36.3167L36.3167 28.4333V28.4333ZM15.3 18.45L8.40002 11.5667L11.5667 8.39999L13.6833 10.5167L11.7 12.5L14.05 14.85L16.0333 12.8667L18.45 15.2833L15.3 18.45V18.45ZM21.55 24.7L24.7167 21.5333L27.1334 23.95L25.15 25.9333L27.5 28.2833L29.4833 26.3L31.6 28.4167L28.4333 31.5833L21.55 24.7V24.7ZM25.2217 8.53832L29.4517 4.30665L35.6983 10.5533L31.4684 14.785L25.2217 8.53832Z" />
+											</g>
+										</svg>
+									</div>
+									<h4 class="reputation__item-title">Best Designs</h4>
+								</div>
+								<div class="reputation__item-text">
+									<p>Ultricies at ipsum nunc, tristique nam lectus.</p>
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__about-us about-us" data-watch="navigator" data-watch-threshold="0.60">
+				<div class="about-us__container">
+					<div class="about-us__body" data-watch data-watch-threshold="0.40" data-watch-once>
+						<div class="about-us__image-ibg" data-da=".about-us__text-content,992,0">
+							<picture><source srcset="img/03_about-us/01.webp" type="image/webp"><img src="img/03_about-us/01.png" alt="Lead Designer"></picture>
+						</div>
+						<div class="about-us__text-content">
+							<div class="about-us__text-content-wrapper">
+								<h4 class="about-us__title">About us</h4>
+								<div class="about-us__text">
+									<p>For more than 30 years we have been delivering world-class construction and we’ve built many lasting relationships along the way. </p>
+									<p>We’ve matured into an industry leader and trusted resource for those seeking quality, innovation and reliability when building in the U.S.</p>
+								</div>
+								<a href="#" class="about-us__link">More on Our History</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__services services" data-watch="navigator" data-watch-threshold="0.70">
+				<div class="services__container">
+					<div class="services__body" data-watch data-watch-threshold="0.40" data-watch-once>
+						<h2 class="services__title">Services</h2>
+						<div class="services__items">
+							<div class="services__item">
+								<div class="services__icon">
+									<img src="img/04_services/construction.svg" alt="Construction">
+								</div>
+								<div class="services__value">Construction</div>
+							</div>
+							<div class="services__item">
+								<div class="services__icon">
+									<img src="img/04_services/renovation.svg" alt="Renovation">
+								</div>
+								<div class="services__value">Renovation</div>
+							</div>
+							<div class="services__item">
+								<div class="services__icon">
+									<img src="img/04_services/consultation-second.svg" alt="Consultation">
+								</div>
+								<div class="services__value">Construction</div>
+							</div>
+							<div class="services__item">
+								<div class="services__icon">
+									<img src="img/04_services/repair-services.svg" alt="Repair Services">
+								</div>
+								<div class="services__value">Repair Services</div>
+							</div>
+							<div class="services__item">
+								<div class="services__icon">
+									<img src="img/04_services/architecture.svg" alt="Architecture">
+								</div>
+								<div class="services__value">Architecture</div>
+							</div>
+							<div class="services__item">
+								<div class="services__icon">
+									<img src="img/04_services/electric.svg" alt="Electric">
+								</div>
+								<div class="services__value">Electric</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__experience experience">
+				<div class="experience__container">
+					<div class="experience__body">
+						<div class="experience__statistics" data-watch data-watch-threshold="0.45" data-watch-once>
+							<div class="experience__statistics-item" data-prlx-mouse data-prlx-a="20" data-prlx-cx="120">
+								<div class="experience__statistics-image">
+									<picture><source srcset="img/05_experience/happy-clients.webp" type="image/webp"><img src="img/05_experience/happy-clients.png" alt="Icon happy clients" data-prlx-a="20" data-prlx-mouse data-prlx-cx="200" data-prlx-dxr data-prlx-dxy></picture>
+								</div>
+								<div class="experience__statistics-value">84</div>
+								<div class="experience__statistics-data">Happy Clients</div>
+							</div>
+							<div class="experience__statistics-item" data-prlx-mouse data-prlx-dxr data-prlx-dxy data-prlx-a="5">
+								<div class="experience__statistics-image">
+									<picture><source srcset="img/05_experience/projects-completed.webp" type="image/webp"><img src="img/05_experience/projects-completed.png" alt="Icon projects completed" data-prlx-a="5" data-prlx-mouse data-prlx-cx="200"></picture>
+								</div>
+								<div class="experience__statistics-value">123</div>
+								<div class="experience__statistics-data">Projects Completed</div>
+							</div>
+							<div class="experience__statistics-item" data-prlx-mouse data-prlx-dxr data-prlx-a="15">
+								<div class="experience__statistics-image">
+									<picture><source srcset="img/05_experience/awards-win.webp" type="image/webp"><img src="img/05_experience/awards-win.png" alt="Icon awards win" data-prlx-a="15" data-prlx-mouse data-prlx-cx="200" data-prlx-dxy></picture>
+								</div>
+								<div class="experience__statistics-value">37</div>
+								<div class="experience__statistics-data">Awards Win</div>
+							</div>
+							<div class="experience__statistics-item" data-prlx-mouse data-prlx-a="10">
+								<div class="experience__statistics-image">
+									<picture><source srcset="img/05_experience/years-in-business.webp" type="image/webp"><img src="img/05_experience/years-in-business.png" alt="Icon years in business" data-prlx-a="15" data-prlx-mouse data-prlx-cx="200" data-prlx-dxr data-prlx-dxy></picture>
+								</div>
+								<div class="experience__statistics-value">30</div>
+								<div class="experience__statistics-data">Years in Business</div>
+							</div>
+						</div>
+						<div class="experience__text-content" data-watch data-watch-threshold="0.45" data-watch-once>
+							<h2 class="experience__title">30 Years Experience</h2>
+							<div class="experience__text">Our company has been the leading provided construction services to clients throughout the USA since 1988.</div>
+							<a href="#" data-goto-header data-goto=".footer" class="experience__link" data-da=".experience__body,767.98,0">Contact Us</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__consultation consultation" data-watch data-watch-threshold="0.70" data-watch-once>
+				<div class="consultation__container">
+					<div class="consultation__body">
+						<div class="consultation__text-content">
+							<h2 class="consultation__title">Free consultation with exceptional quality</h2>
+							<div class="consultation__text">
+								<p>Just one call away: <a href="#">+84 1102 2703</a></p>
+							</div>
+						</div>
+						<a href="#" class="consultation__link">Get your consultation</a>
+					</div>
+				</div>
+			</section>
+			<section class="page__projects projects" data-watch="navigator" data-watch-threshold="0.4">
+				<div class="projects__container" data-watch data-watch-threshold="0.4" data-watch-once>
+					<div class="projects__body tabs" data-tabs>
+						<div class="projects__filter-control">
+							<h2 class="projects__title" data-da=".projects__container,767.98,0">Projects</h2>
+							<nav class="projects__filter-control-body tabs__navigation" data-tabs-titles>
+								<button type="button" class="projects__filter-control-button _active tabs__title _tab-active" data-filter="all">All</button>
+								<button type="button" class="projects__filter-control-button tabs__title" data-filter="commercial">Commercial</button>
+								<button type="button" class="projects__filter-control-button tabs__title" data-filter="residential">Residential</button>
+								<button type="button" class="projects__filter-control-button tabs__title" data-filter="other">Other</button>
+							</nav>
+						</div>
+						<div class="tabs__content" data-tabs-body>
+							<div class="tabs__body">
+								<div class="projects__sliders projects-sliders">
+									<div class="projects-sliders__slider swiper">
+										<div class="projects-sliders__wrapper swiper-wrapper">
+											<div class="projects-sliders__slide swiper-slide" data-filter="commercial">
+												<div class="projects-sliders__slide-item">
+													<a href="#" class="projects-sliders__slide-project-image-ibg">
+														<picture><source srcset="img/07_projects/01.webp" type="image/webp"><img src="img/07_projects/01.jpg" alt="Building"></picture>
+													</a>
+													<div class="projects-sliders__slide-project-info">
+														<h4 class="projects-sliders__slide-project-name"><a href="#">Wildstone Infra Hotel</a></h4>
+														<a href="#" class="projects-sliders__slide-project-adress">2715 Ash Dr. San Jose, South Dakota</a>
+													</div>
+												</div>
+											</div>
+											<div class="projects-sliders__slide swiper-slide" data-filter="commercial">
+												<div class="projects-sliders__slide-item">
+													<a href="#" class="projects-sliders__slide-project-image-ibg">
+														<picture><source srcset="img/07_projects/03.webp" type="image/webp"><img src="img/07_projects/03.jpg" alt="Building"></picture>
+													</a>
+													<div class="projects-sliders__slide-project-info">
+														<h4 class="projects-sliders__slide-project-name"><a href="#">Wish Stone Building</a></h4>
+														<a href="#" class="projects-sliders__slide-project-adress">2972 Westheimer Rd. Santa Ana, Illinois </a>
+													</div>
+												</div>
+											</div>
+											<div class="projects-sliders__slide swiper-slide" data-filter="other">
+												<div class="projects-sliders__slide-item">
+													<a href="#" class="projects-sliders__slide-project-image-ibg">
+														<picture><source srcset="img/07_projects/07.webp" type="image/webp"><img src="img/07_projects/07.jpg" alt="Building"></picture>
+													</a>
+													<div class="projects-sliders__slide-project-info">
+														<h4 class="projects-sliders__slide-project-name"><a href="#">Wish Stone Building</a></h4>
+														<a href="#" class="projects-sliders__slide-project-adress">2972 Westheimer Rd. Santa Ana, Illinois </a>
+													</div>
+												</div>
+											</div>
+											<div class="projects-sliders__slide swiper-slide" data-filter="other">
+												<div class="projects-sliders__slide-item">
+													<a href="#" class="projects-sliders__slide-project-image-ibg">
+														<picture><source srcset="img/07_projects/08.webp" type="image/webp"><img src="img/07_projects/08.jpg" alt="Building"></picture>
+													</a>
+													<div class="projects-sliders__slide-project-info">
+														<h4 class="projects-sliders__slide-project-name"><a href="#">Oregano Height</a></h4>
+														<a href="#" class="projects-sliders__slide-project-adress">2464 Royal Ln. Mesa, New Jersey </a>
+													</div>
+												</div>
+											</div>
+											<div class="projects-sliders__slide swiper-slide" data-filter="commercial">
+												<div class="projects-sliders__slide-item">
+													<a href="#" class="projects-sliders__slide-project-image-ibg">
+														<picture><source srcset="img/07_projects/05.webp" type="image/webp"><img src="img/07_projects/05.jpg" alt="Building"></picture>
+													</a>
+													<div class="projects-sliders__slide-project-info">
+														<h4 class="projects-sliders__slide-project-name"><a href="#">Wildstone Infra Hotel</a></h4>
+														<a href="#" class="projects-sliders__slide-project-adress">2715 Ash Dr. San Jose, South Dakota</a>
+													</div>
+												</div>
+											</div>
+											<div class="projects-sliders__slide swiper-slide" data-filter="residential">
+												<div class="projects-sliders__slide-item">
+													<a href="#" class="projects-sliders__slide-project-image-ibg">
+														<picture><source srcset="img/07_projects/06.webp" type="image/webp"><img src="img/07_projects/06.jpg" alt="Building"></picture>
+													</a>
+													<div class="projects-sliders__slide-project-info">
+														<h4 class="projects-sliders__slide-project-name"><a href="#">Mr. Parkinston’s House</a></h4>
+														<a href="#" class="projects-sliders__slide-project-adress">3517 W. Gray St. Utica, Pennsylvania</a>
+													</div>
+												</div>
+											</div>
+											<div class="projects-sliders__slide swiper-slide" data-filter="residential">
+												<div class="projects-sliders__slide-item">
+													<a href="#" class="projects-sliders__slide-project-image-ibg">
+														<picture><source srcset="img/07_projects/02.webp" type="image/webp"><img src="img/07_projects/02.jpg" alt="Building"></picture>
+													</a>
+													<div class="projects-sliders__slide-project-info">
+														<h4 class="projects-sliders__slide-project-name"><a href="#">Mr. Parkinston’s House</a></h4>
+														<a href="#" class="projects-sliders__slide-project-adress">3517 W. Gray St. Utica, Pennsylvania</a>
+													</div>
+												</div>
+											</div>
+											<div class="projects-sliders__slide swiper-slide" data-filter="commercial">
+												<div class="projects-sliders__slide-item">
+													<a href="#" class="projects-sliders__slide-project-image-ibg">
+														<picture><source srcset="img/07_projects/04.webp" type="image/webp"><img src="img/07_projects/04.jpg" alt="Building"></picture>
+													</a>
+													<div class="projects-sliders__slide-project-info">
+														<h4 class="projects-sliders__slide-project-name"><a href="#">Oregano Height</a></h4>
+														<a href="#" class="projects-sliders__slide-project-adress">2464 Royal Ln. Mesa, New Jersey </a>
+													</div>
+												</div>
+											</div>
+											<div class="projects-sliders__slide swiper-slide" data-filter="commercial">
+												<div class="projects-sliders__slide-item">
+													<a href="#" class="projects-sliders__slide-project-image-ibg">
+														<picture><source srcset="img/07_projects/01.webp" type="image/webp"><img src="img/07_projects/01.jpg" alt="Building"></picture>
+													</a>
+													<div class="projects-sliders__slide-project-info">
+														<h4 class="projects-sliders__slide-project-name"><a href="#">Wildstone Infra Hotel</a></h4>
+														<a href="#" class="projects-sliders__slide-project-adress">2715 Ash Dr. San Jose, South Dakota</a>
+													</div>
+												</div>
+											</div>
+											<div class="projects-sliders__slide swiper-slide" data-filter="residential">
+												<div class="projects-sliders__slide-item">
+													<a href="#" class="projects-sliders__slide-project-image-ibg">
+														<picture><source srcset="img/07_projects/02.webp" type="image/webp"><img src="img/07_projects/02.jpg" alt="Building"></picture>
+													</a>
+													<div class="projects-sliders__slide-project-info">
+														<h4 class="projects-sliders__slide-project-name"><a href="#">Mr. Parkinston’s House</a></h4>
+														<a href="#" class="projects-sliders__slide-project-adress">3517 W. Gray St. Utica, Pennsylvania</a>
+													</div>
+												</div>
+											</div>
+											<div class="projects-sliders__slide swiper-slide" data-filter="commercial">
+												<div class="projects-sliders__slide-item">
+													<a href="#" class="projects-sliders__slide-project-image-ibg">
+														<picture><source srcset="img/07_projects/03.webp" type="image/webp"><img src="img/07_projects/03.jpg" alt="Building"></picture>
+													</a>
+													<div class="projects-sliders__slide-project-info">
+														<h4 class="projects-sliders__slide-project-name"><a href="#">Wish Stone Building</a></h4>
+														<a href="#" class="projects-sliders__slide-project-adress">2972 Westheimer Rd. Santa Ana, Illinois </a>
+													</div>
+												</div>
+											</div>
+											<div class="projects-sliders__slide swiper-slide" data-filter="commercial">
+												<div class="projects-sliders__slide-item">
+													<a href="#" class="projects-sliders__slide-project-image-ibg">
+														<picture><source srcset="img/07_projects/04.webp" type="image/webp"><img src="img/07_projects/04.jpg" alt="Building"></picture>
+													</a>
+													<div class="projects-sliders__slide-project-info">
+														<h4 class="projects-sliders__slide-project-name"><a href="#">Oregano Height</a></h4>
+														<a href="#" class="projects-sliders__slide-project-adress">2464 Royal Ln. Mesa, New Jersey </a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="projects-sliders__swiper-control">
+											<button type="button" class="projects-sliders__swiper-button-prev swiper-button-prev">Back</button>
+											<div class="projects-sliders__swiper-pagination swiper-pagination"></div>
+											<button type="button" class="projects-sliders__swiper-button-next swiper-button-next">Next</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tabs__body">
+								<div class="projects__sliders projects-sliders">
+									<div class="projects-sliders__slider swiper">
+										<div class="projects-sliders__wrapper swiper-wrapper">
+											<div class="projects-sliders__slide swiper-slide" data-filter="commercial">
+												<div class="projects-sliders__slide-item">
+													<a href="#" class="projects-sliders__slide-project-image-ibg">
+														<picture><source srcset="img/07_projects/01.webp" type="image/webp"><img src="img/07_projects/01.jpg" alt="Building"></picture>
+													</a>
+													<div class="projects-sliders__slide-project-info">
+														<h4 class="projects-sliders__slide-project-name"><a href="#">Wildstone Infra Hotel</a></h4>
+														<a href="#" class="projects-sliders__slide-project-adress">2715 Ash Dr. San Jose, South Dakota</a>
+													</div>
+												</div>
+											</div>
+											<div class="projects-sliders__slide swiper-slide" data-filter="commercial">
+												<div class="projects-sliders__slide-item">
+													<a href="#" class="projects-sliders__slide-project-image-ibg">
+														<picture><source srcset="img/07_projects/03.webp" type="image/webp"><img src="img/07_projects/03.jpg" alt="Building"></picture>
+													</a>
+													<div class="projects-sliders__slide-project-info">
+														<h4 class="projects-sliders__slide-project-name"><a href="#">Wish Stone Building</a></h4>
+														<a href="#" class="projects-sliders__slide-project-adress">2972 Westheimer Rd. Santa Ana, Illinois </a>
+													</div>
+												</div>
+											</div>
+											<div class="projects-sliders__slide swiper-slide" data-filter="commercial">
+												<div class="projects-sliders__slide-item">
+													<a href="#" class="projects-sliders__slide-project-image-ibg">
+														<picture><source srcset="img/07_projects/05.webp" type="image/webp"><img src="img/07_projects/05.jpg" alt="Building"></picture>
+													</a>
+													<div class="projects-sliders__slide-project-info">
+														<h4 class="projects-sliders__slide-project-name"><a href="#">Wildstone Infra Hotel</a></h4>
+														<a href="#" class="projects-sliders__slide-project-adress">2715 Ash Dr. San Jose, South Dakota</a>
+													</div>
+												</div>
+											</div>
+											<div class="projects-sliders__slide swiper-slide" data-filter="commercial">
+												<div class="projects-sliders__slide-item">
+													<a href="#" class="projects-sliders__slide-project-image-ibg">
+														<picture><source srcset="img/07_projects/04.webp" type="image/webp"><img src="img/07_projects/04.jpg" alt="Building"></picture>
+													</a>
+													<div class="projects-sliders__slide-project-info">
+														<h4 class="projects-sliders__slide-project-name"><a href="#">Oregano Height</a></h4>
+														<a href="#" class="projects-sliders__slide-project-adress">2464 Royal Ln. Mesa, New Jersey </a>
+													</div>
+												</div>
+											</div>
+											<div class="projects-sliders__slide swiper-slide" data-filter="commercial">
+												<div class="projects-sliders__slide-item">
+													<a href="#" class="projects-sliders__slide-project-image-ibg">
+														<picture><source srcset="img/07_projects/01.webp" type="image/webp"><img src="img/07_projects/01.jpg" alt="Building"></picture>
+													</a>
+													<div class="projects-sliders__slide-project-info">
+														<h4 class="projects-sliders__slide-project-name"><a href="#">Wildstone Infra Hotel</a></h4>
+														<a href="#" class="projects-sliders__slide-project-adress">2715 Ash Dr. San Jose, South Dakota</a>
+													</div>
+												</div>
+											</div>
+											<div class="projects-sliders__slide swiper-slide" data-filter="commercial">
+												<div class="projects-sliders__slide-item">
+													<a href="#" class="projects-sliders__slide-project-image-ibg">
+														<picture><source srcset="img/07_projects/03.webp" type="image/webp"><img src="img/07_projects/03.jpg" alt="Building"></picture>
+													</a>
+													<div class="projects-sliders__slide-project-info">
+														<h4 class="projects-sliders__slide-project-name"><a href="#">Wish Stone Building</a></h4>
+														<a href="#" class="projects-sliders__slide-project-adress">2972 Westheimer Rd. Santa Ana, Illinois </a>
+													</div>
+												</div>
+											</div>
+											<div class="projects-sliders__slide swiper-slide" data-filter="commercial">
+												<div class="projects-sliders__slide-item">
+													<a href="#" class="projects-sliders__slide-project-image-ibg">
+														<picture><source srcset="img/07_projects/04.webp" type="image/webp"><img src="img/07_projects/04.jpg" alt="Building"></picture>
+													</a>
+													<div class="projects-sliders__slide-project-info">
+														<h4 class="projects-sliders__slide-project-name"><a href="#">Oregano Height</a></h4>
+														<a href="#" class="projects-sliders__slide-project-adress">2464 Royal Ln. Mesa, New Jersey </a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="projects-sliders__swiper-control">
+											<button type="button" class="projects-sliders__swiper-button-prev swiper-button-prev">Back</button>
+											<div class="projects-sliders__swiper-pagination swiper-pagination"></div>
+											<button type="button" class="projects-sliders__swiper-button-next swiper-button-next">Next</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tabs__body">
+								<div class="projects__sliders projects-sliders">
+									<div class="projects-sliders__slider swiper">
+										<div class="projects-sliders__wrapper swiper-wrapper">
+											<div class="projects-sliders__slide swiper-slide" data-filter="residential">
+												<div class="projects-sliders__slide-item">
+													<a href="#" class="projects-sliders__slide-project-image-ibg">
+														<picture><source srcset="img/07_projects/06.webp" type="image/webp"><img src="img/07_projects/06.jpg" alt="Building"></picture>
+													</a>
+													<div class="projects-sliders__slide-project-info">
+														<h4 class="projects-sliders__slide-project-name"><a href="#">Mr. Parkinston’s House</a></h4>
+														<a href="#" class="projects-sliders__slide-project-adress">3517 W. Gray St. Utica, Pennsylvania</a>
+													</div>
+												</div>
+											</div>
+											<div class="projects-sliders__slide swiper-slide" data-filter="residential">
+												<div class="projects-sliders__slide-item">
+													<a href="#" class="projects-sliders__slide-project-image-ibg">
+														<picture><source srcset="img/07_projects/02.webp" type="image/webp"><img src="img/07_projects/02.jpg" alt="Building"></picture>
+													</a>
+													<div class="projects-sliders__slide-project-info">
+														<h4 class="projects-sliders__slide-project-name"><a href="#">Mr. Parkinston’s House</a></h4>
+														<a href="#" class="projects-sliders__slide-project-adress">3517 W. Gray St. Utica, Pennsylvania</a>
+													</div>
+												</div>
+											</div>
+											<div class="projects-sliders__slide swiper-slide" data-filter="residential">
+												<div class="projects-sliders__slide-item">
+													<a href="#" class="projects-sliders__slide-project-image-ibg">
+														<picture><source srcset="img/07_projects/02.webp" type="image/webp"><img src="img/07_projects/02.jpg" alt="Building"></picture>
+													</a>
+													<div class="projects-sliders__slide-project-info">
+														<h4 class="projects-sliders__slide-project-name"><a href="#">Mr. Parkinston’s House</a></h4>
+														<a href="#" class="projects-sliders__slide-project-adress">3517 W. Gray St. Utica, Pennsylvania</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="projects-sliders__swiper-control">
+											<button type="button" class="projects-sliders__swiper-button-prev swiper-button-prev">Back</button>
+											<div class="projects-sliders__swiper-pagination swiper-pagination"></div>
+											<button type="button" class="projects-sliders__swiper-button-next swiper-button-next">Next</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tabs__body">
+								<div class="projects__sliders projects-sliders">
+									<div class="projects-sliders__slider swiper">
+										<div class="projects-sliders__wrapper swiper-wrapper">
+											<div class="projects-sliders__slide swiper-slide" data-filter="other">
+												<div class="projects-sliders__slide-item">
+													<a href="#" class="projects-sliders__slide-project-image-ibg">
+														<picture><source srcset="img/07_projects/07.webp" type="image/webp"><img src="img/07_projects/07.jpg" alt="Building"></picture>
+													</a>
+													<div class="projects-sliders__slide-project-info">
+														<h4 class="projects-sliders__slide-project-name"><a href="#">Wish Stone Building</a></h4>
+														<a href="#" class="projects-sliders__slide-project-adress">2972 Westheimer Rd. Santa Ana, Illinois </a>
+													</div>
+												</div>
+											</div>
+											<div class="projects-sliders__slide swiper-slide" data-filter="other">
+												<div class="projects-sliders__slide-item">
+													<a href="#" class="projects-sliders__slide-project-image-ibg">
+														<picture><source srcset="img/07_projects/08.webp" type="image/webp"><img src="img/07_projects/08.jpg" alt="Building"></picture>
+													</a>
+													<div class="projects-sliders__slide-project-info">
+														<h4 class="projects-sliders__slide-project-name"><a href="#">Oregano Height</a></h4>
+														<a href="#" class="projects-sliders__slide-project-adress">2464 Royal Ln. Mesa, New Jersey </a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="projects-sliders__swiper-control">
+											<button type="button" class="projects-sliders__swiper-button-prev swiper-button-prev">Back</button>
+											<div class="projects-sliders__swiper-pagination swiper-pagination"></div>
+											<button type="button" class="projects-sliders__swiper-button-next swiper-button-next">Next</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__client-info client-info" data-watch data-watch-threshold="0.4" data-watch-once>
+				<div class="client-info__container">
+					<div class="client-info__body">
+						<h2 class="client-info__title">What can us do for you?</h2>
+						<div class="client-info__text">
+							<p>We are ready to work on a project of any complexity, whether it’s commercial or residential.</p>
+						</div>
+						<div class="client-info__form client-form">
+							<form action="files/sendmail/sendmail.php" method="POST">
+								<div class="client-form__input-wrapper">
+									<input type="text" pattern="[A-Za-z].{0,}" name="name" data-error="Error" placeholder="Your Name*" class="client-form__input client-form__input--name" required>
+									<input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" name="form[email]" data-error="Error" placeholder="Email*" class="client-form__input client-form__input--email" required>
+									<select name="form[]" data-class-modif="form" required class="client-form__input client-form__input--select">
+										<option value="" selected>Reason for Contacting*</option>
+										<option value="1">I have money</option>
+										<option value="2">I want to build a house</option>
+										<option value="3">Something else</option>
+										<option value="4">And something else</option>
+									</select>
+									<input pattern="[0-9]{3} [0-9]{3} [0-9]{4}" type="tel" name="phone" data-error="Error" placeholder="Phone" class="client-form__input client-form__input--phone">
+								</div>
+								<textarea data-autoheight autocomplete="off" name="form[]" placeholder="Message" data-error="Помилка" class="client-form__input client-form__input--textarea"></textarea>
+								<div class="client-form__required-text">
+									<p><span>*</span> indicates a required field</p>
+								</div>
+								<button type="submit" class="client-form__button">Submit</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer" data-watch="navigator" data-watch-threshold="0.4">
+			<div class="footer__content-wrapper">
+				<div class="footer__top footer-top">
+					<div class="footer-top__container">
+						<div class="footer-top__column">
+							<ul class="footer-top__list">
+								<li class="footer-top__list-item">
+									<div class="footer-top__list-item-data">Address:</div>
+									<a href="https://www.google.com/maps/search/6391+Elgin+St.+Celina,+Delaware+10299/@38.9428925,-75.3753141,9.29z?entry=ttu" class="footer-top__list-item-value" target="_blank">6391 Elgin St. Celina, Delaware 10299</a>
+								</li>
+								<li class="footer-top__list-item">
+									<div class="footer-top__list-item-data">Phone:</div>
+									<a href="tel:+8411022703" class="footer-top__list-item-value">+84 1102 2703</a>
+								</li>
+								<li class="footer-top__list-item">
+									<div class="footer-top__list-item-data">Email:</div>
+									<a href="mailto:hello@thebox.com" class="footer-top__list-item-value">hello@thebox.com</a>
+								</li>
+							</ul>
+							<a href="#" class="footer-top__icon" data-goto=".page">
+								<svg xmlns="http://www.w3.org/2000/svg" width="38" height="48" viewBox="0 0 38 48" fill="none">
+									<path d="M19.0017 36.6673V47.5003L38 36.5269V25.6952L19.0017 36.6673Z" class="footer-top__path-primary" />
+									<path d="M27.5062 15.745L36.8802 10.3284L19.0017 0V10.8328L27.5062 15.745Z" class="footer-top__path-secondary" />
+									<path d="M11.6182 18.9795V29.8158L19.0015 34.0795V23.2481L11.6182 18.9795Z" class="footer-top__path-light" />
+									<path d="M38 12.2701L19.0017 23.2481V34.0795L38 23.1061V12.2701Z" class="footer-top__path-primary" />
+									<path d="M1.13135 10.3221L10.4492 15.7703L19.0014 10.8328V0L1.13135 10.3221Z" class="footer-top__path-primary" />
+									<path d="M9.3772 31.1103V17.68L0 12.2652V36.5266L19.0014 47.5V36.6669L9.3772 31.1103Z" class="footer-top__path-light" />
+								</svg>
+								<div class="footer-top__logo-text">
+									<span>The</span>Box
+								</div>
+							</a>
+						</div>
+						<div class="footer-top__column">
+							<ul class="footer-top__list">
+								<li class="footer-top__list-item">
+									<div class="footer-top__list-item-data">Newsletter:</div>
+									<form class="footer-top__form" action="files/sendmail/sendmail.php" method="POST">
+										<input pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required type="email" name="form[email]" data-error="Error" placeholder="Your email here" class="footer-top__input">
+										<button type="submit" class="footer-top__button">Subscribe</button>
+									</form>
+								</li>
+								<li class="footer-top__list-item">
+									<div class="footer-top__list-item-data">Social:</div>
+									<ul class="footer-top__social-list">
+										<li class="footer-top__social-item"><a href="#" class="_icon-facebook"></a></li>
+										<li class="footer-top__social-item"><a href="#" class="_icon-linkedin"></a></li>
+										<li class="footer-top__social-item"><a href="#" class="_icon-twitter"></a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="footer__bottom footer-bottom">
+					<div class="footer-bottom__container">
+						TheBox Company © 2022. All Rights Reserved
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20231101132105"></script>
+</body>
+
+</html>
